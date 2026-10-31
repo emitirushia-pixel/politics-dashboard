@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>政治ダッシュボード</title>
+<meta name="description" content="政治が苦手でも分かる、今週の政治と締切・選挙の予定">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#e75480">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="政治">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --pink:#e75480; --pink-soft:#f78fb3; --cream:#fff7f2; --ink:#4a3040;
+    --ink-soft:#8a6a7a; --card:#ffffff; --line:#f6d7e2; --coral:#ff6b5e;
+    --chip-life:#f78fb3; --chip-diet:#a58fd6; --chip-deadline:#63b995;
+    --chip-election:#f2a541; --chip-poll:#5ea8d3;
+  }
+  *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html,body{ margin:0; padding:0; }
+  body{
+    font-family:"M PLUS Rounded 1c","Hiragino Maru Gothic ProN","Hiragino Sans",sans-serif;
+    color:var(--ink); background:#ffeef5;
+    background-image:radial-gradient(#ffd3e2 2.2px, transparent 2.3px), radial-gradient(#ffe3ec 2.2px, transparent 2.3px);
+    background-size:26px 26px; background-position:0 0, 13px 13px;
+  }
+  .app{ max-width:480px; margin:0 auto; min-height:100dvh; background:var(--cream);
+        box-shadow:0 0 24px rgba(231,84,128,.12); display:flex; flex-direction:column; }
+  header.topbar{
+    position:sticky; top:0; z-index:20; background:rgba(255,247,242,.94);
+    backdrop-filter:blur(6px); border-bottom:2px solid var(--line);
+    padding:10px 16px 8px;
+  }
+  .topbar .row{ display:flex; align-items:center; justify-content:space-between; gap:8px; }
+  .topbar h1{ font-size:19px; margin:0; font-weight:800; color:var(--pink); letter-spacing:.02em; }
+  .topbar .updated{ font-size:11.5px; color:var(--ink-soft); margin-top:2px; }
+  .topbar .reload{
+    border:2px solid var(--pink-soft); background:#fff; color:var(--pink);
+    font-family:inherit; font-weight:700; font-size:12.5px; border-radius:999px;
+    padding:6px 12px; cursor:pointer; white-space:nowrap;
+  }
+  .topbar .reload:active{ background:#ffe3ec; }
+  main{ flex:1; padding:14px 14px 96px; }
+  .view{ display:none; }
+  .view.active{ display:block; }
+  .hero{
+    background:linear-gradient(135deg,#f78fb3,#e75480); color:#fff; border-radius:22px;
+    padding:18px 18px 16px; box-shadow:0 8px 20px rgba(231,84,128,.28); margin-bottom:16px;
+  }
+  .hero .kicker{ font-size:12px; font-weight:700; opacity:.92; letter-spacing:.08em; }
+  .hero h2{ font-size:20px; margin:6px 0 4px; line-height:1.35; }
+  .hero .date{ font-size:13.5px; opacity:.95; }
+  .hero .count{
+    display:inline-block; margin-top:12px; background:#fff; color:var(--pink);
+    font-weight:800; font-size:17px; border-radius:999px; padding:8px 18px;
+    box-shadow:0 3px 8px rgba(0,0,0,.12);
+  }
+  .hero .count small{ font-size:12px; font-weight:700; }
+  section.block{ margin-bottom:20px; }
+  section.block > h3{ font-size:16.5px; margin:0 0 10px; color:var(--ink); display:flex; align-items:center; gap:8px; }
+  section.block > h3::before{ content:""; width:9px; height:9px; border-radius:50%; background:var(--pink-soft); flex:none; }
+  .digest{ background:#fff; border:2px solid var(--line); border-radius:18px; padding:6px 16px; box-shadow:0 4px 12px rgba(231,84,128,.07); }
+  .digest p{ margin:0; padding:11px 0; font-size:14.5px; line-height:1.65; border-bottom:1.5px dashed var(--line); }
+  .digest p:last-child{ border-bottom:none; }
+  .digest a{ color:var(--pink); font-weight:700; font-size:12.5px; text-decoration:none; white-space:nowrap; }
+  .card{
+    background:var(--card); border:2px solid var(--line); border-radius:18px;
+    padding:14px 15px; margin-bottom:12px; box-shadow:0 4px 12px rgba(231,84,128,.07);
+  }
+  .card .meta{ display:flex; flex-wrap:wrap; gap:6px; align-items:center; margin-bottom:8px; }
+  .chip{
+    font-size:11px; font-weight:800; color:#fff; border-radius:999px; padding:3px 10px;
+  }
+  .chip.life{ background:var(--chip-life); } .chip.diet{ background:var(--chip-diet); }
+  .chip.deadline{ background:var(--chip-deadline); } .chip.election{ background:var(--chip-election); }
+  .chip.poll{ background:var(--chip-poll); }
+  .datechip{ font-size:11.5px; font-weight:700; color:var(--ink-soft); background:#fdf0f4; border-radius:999px; padding:3px 10px; }
+  .daysleft{ font-size:11.5px; font-weight:800; color:var(--coral); background:#fff0ee; border:1.5px solid #ffc9c2; border-radius:999px; padding:2.5px 10px; }
+  .daysleft.far{ color:var(--ink-soft); background:#f7f7f7; border-color:#e8e8e8; }
+  .card h4{ font-size:16px; margin:0 0 7px; line-height:1.45; }
+  .card .summary{ font-size:14px; line-height:1.7; margin:0 0 10px; }
+  .qa{ background:#fff9f5; border-radius:12px; padding:9px 12px; margin-bottom:7px; }
+  .qa .q{ font-size:11.5px; font-weight:800; color:var(--pink); margin-bottom:3px; }
+  .qa .a{ font-size:13.5px; line-height:1.65; }
+  .procon{ display:grid; gap:7px; margin-bottom:7px; }
+  .procon .pc{ border-radius:12px; padding:9px 12px; font-size:13.5px; line-height:1.65; }
+  .procon .pro{ background:#eefaf3; } .procon .con{ background:#fdf0f4; }
+  .procon .tag{ font-size:11.5px; font-weight:800; display:block; margin-bottom:3px; }
+  .procon .pro .tag{ color:#2e8b62; } .procon .con .tag{ color:var(--pink); }
+  .gloss{ margin:9px 0 4px; }
+  .gloss .g{ display:block; font-size:12.5px; line-height:1.6; color:var(--ink-soft); margin-bottom:3px; }
+  .gloss .g b{ color:var(--ink); background:#ffeef5; border-radius:6px; padding:1px 6px; margin-right:5px; font-weight:700; }
+  .pollbar{ margin:10px 0 4px; }
+  .pollbar .agency{ font-size:12px; font-weight:700; color:var(--ink-soft); margin-bottom:6px; }
+  .pollbar .bar-row{ display:flex; align-items:center; gap:8px; margin-bottom:5px; font-size:12.5px; }
+  .pollbar .bar-row .lab{ width:52px; flex:none; font-weight:700; }
+  .pollbar .track{ flex:1; height:13px; background:#f3e4ea; border-radius:999px; overflow:hidden; }
+  .pollbar .fill{ height:100%; border-radius:999px; }
+  .pollbar .fill.sup{ background:var(--chip-poll); } .pollbar .fill.opp{ background:#c9a0b4; }
+  .pollbar .pct{ width:52px; flex:none; text-align:right; font-weight:800; }
+  .source{ margin-top:10px; font-size:12.5px; }
+  .source a{ color:var(--pink); font-weight:700; text-decoration:none; }
+  .source .sdate{ color:var(--ink-soft); margin-left:6px; }
+  .shortcuts{ display:grid; grid-template-columns:1fr 1fr; gap:9px; }
+  .shortcut{
+    display:flex; align-items:center; gap:10px; background:#fff; border:2px solid var(--line);
+    border-radius:16px; padding:11px 12px; cursor:pointer; font-family:inherit; text-align:left;
+    box-shadow:0 3px 9px rgba(231,84,128,.06);
+  }
+  .shortcut .dot{
+    width:38px; height:38px; flex:none; border-radius:50%; color:#fff; font-weight:800;
+    display:flex; align-items:center; justify-content:center; font-size:16px;
+  }
+  .shortcut .t{ font-size:13.5px; font-weight:800; line-height:1.3; }
+  .shortcut .n{ font-size:11px; color:var(--ink-soft); font-weight:700; }
+  .guide{ background:#fff; border:2px dashed var(--pink-soft); border-radius:18px; padding:14px 16px; font-size:13.5px; line-height:1.75; }
+  .guide h4{ margin:0 0 6px; font-size:14.5px; color:var(--pink); }
+  .guide p{ margin:0 0 6px; }
+  .guide p:last-child{ margin-bottom:0; }
+  .empty{ text-align:center; color:var(--ink-soft); font-size:14px; padding:34px 10px; line-height:1.8; }
+  nav.tabbar{
+    position:fixed; bottom:0; left:50%; transform:translateX(-50%); width:100%; max-width:480px;
+    background:rgba(255,255,255,.97); border-top:2px solid var(--line); z-index:20;
+    display:flex; padding:8px 10px calc(8px + env(safe-area-inset-bottom));
+  }
+  nav.tabbar button{
+    flex:1; border:none; background:none; font-family:inherit; cursor:pointer;
+    font-size:12.5px; font-weight:700; color:var(--ink-soft); border-radius:14px; padding:7px 0 5px;
+    display:flex; flex-direction:column; align-items:center; gap:2px;
+  }
+  nav.tabbar button .ic{ font-size:19px; line-height:1; }
+  nav.tabbar button.active{ color:var(--pink); background:#ffeef5; }
+  .topic-head{ display:flex; align-items:baseline; gap:8px; margin:18px 0 10px; }
+  .topic-head:first-child{ margin-top:2px; }
+  .topic-head .dot{ width:26px; height:26px; border-radius:50%; color:#fff; font-size:13px; font-weight:800; display:inline-flex; align-items:center; justify-content:center; align-self:center; }
+  .topic-head h3{ font-size:16.5px; margin:0; }
+  .topic-head .sub{ font-size:11.5px; color:var(--ink-soft); font-weight:700; }
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <div class="row">
+      <div>
+        <h1>🏛 政治ダッシュボード</h1>
+        <div class="updated" id="updatedLabel">読み込み中…</div>
+      </div>
+      <button class="reload" id="reloadBtn" type="button">↻ 更新</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="view active" id="view-home"></div>
+    <div class="view" id="view-dates"></div>
+    <div class="view" id="view-topics"></div>
+  </main>
+
+  <nav class="tabbar">
+    <button type="button" data-view="home" class="active"><span class="ic">🏠</span>ホーム</button>
+    <button type="button" data-view="dates"><span class="ic">📅</span>日付順</button>
+    <button type="button" data-view="topics"><span class="ic">🗂</span>テーマ別</button>
+  </nav>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var TOPIC_ORDER = ["life","diet","deadline","election","poll"];
+  var TOPIC_ICON = { life:"暮", diet:"国", deadline:"締", election:"選", poll:"世" };
+  var CHIP_CLS = { life:"life", diet:"diet", deadline:"deadline", election:"election", poll:"poll" };
+  var state = { data:null };
+
+  function todayJST(){
+    return new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Tokyo",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
+  }
+  function daysLeft(dateStr){
+    if(!dateStr) return null;
+    var a = Date.parse(todayJST()+"T00:00:00Z"), b = Date.parse(dateStr+"T00:00:00Z");
+    if(isNaN(a)||isNaN(b)) return null;
+    return Math.round((b-a)/86400000);
+  }
+  function fmtDate(dateStr){
+    if(!dateStr) return "";
+    var d = new Date(dateStr+"T00:00:00+09:00");
+    var w = ["日","月","火","水","木","金","土"][d.getDay()];
+    return (d.getMonth()+1)+"月"+d.getDate()+"日（"+w+"）";
+  }
+  function esc(s){
+    return String(s==null?"":s).replace(/[&<>"']/g,function(c){
+      return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
+    });
+  }
+  function topicLabel(data, id){
+    var t = (data.topics||[]).filter(function(x){return x.id===id;})[0];
+    return t ? t.label : id;
+  }
+  function daysBadge(item){
+    var n = daysLeft(item.date);
+    if(n===null) return "";
+    if(n < 0) return "";
+    var txt = n===0 ? "⏰ 今日" : (n===1 ? "⏰ あと1日" : "⏰ あと"+n+"日");
+    return '<span class="daysleft'+(n>30?" far":"")+'">'+txt+"</span>";
+  }
+  function cardHTML(data, item){
+    var h = '<article class="card">';
+    h += '<div class="meta"><span class="chip '+CHIP_CLS[item.topic]+'">'+esc(topicLabel(data,item.topic))+"</span>";
+    if(item.date) h += '<span class="datechip">'+esc(fmtDate(item.date))+"</span>";
+    h += daysBadge(item);
+    if(item.poll) h += '<span class="datechip">調査日 '+esc(fmtDate(item.poll.surveyed_on))+"</span>";
+    h += "</div>";
+    h += "<h4>"+esc(item.title)+"</h4>";
+    h += '<p class="summary">'+esc(item.summary)+"</p>";
+    if(item.why) h += '<div class="qa"><div class="q">なんで大事？</div><div class="a">'+esc(item.why)+"</div></div>";
+    if(item.changes) h += '<div class="qa"><div class="q">決まるとどう変わる？</div><div class="a">'+esc(item.changes)+"</div></div>";
+    if(item.pro || item.con){
+      h += '<div class="procon">';
+      if(item.pro) h += '<div class="pc pro"><span class="tag">賛成側の言い分</span>'+esc(item.pro)+"</div>";
+      if(item.con) h += '<div class="pc con"><span class="tag">反対側の言い分</span>'+esc(item.con)+"</div>";
+      h += "</div>";
+    }
+    if(item.poll){
+      var sup = Number(item.poll.support), opp = Number(item.poll.oppose);
+      h += '<div class="pollbar"><div class="agency">'+esc(item.poll.agency||"世論調査")+"／内閣支持率</div>";
+      h += '<div class="bar-row"><span class="lab">支持</span><div class="track"><div class="fill sup" style="width:'+sup+'%"></div></div><span class="pct">'+sup+'%</span></div>';
+      h += '<div class="bar-row"><span class="lab">不支持</span><div class="track"><div class="fill opp" style="width:'+opp+'%"></div></div><span class="pct">'+opp+'%</span></div>';
+      h += "</div>";
+    }
+    if(item.glossary && item.glossary.length){
+      h += '<div class="gloss">';
+      item.glossary.forEach(function(g){
+        h += '<span class="g"><b>'+esc(g[0])+"</b>"+esc(g[1])+"</span>";
+      });
+      h += "</div>";
+    }
+    if(item.source_url){
+      h += '<div class="source">🔗 <a href="'+esc(item.source_url)+'" target="_blank" rel="noopener">出典を見る</a></div>';
+    }
+    h += "</article>";
+    return h;
+  }
+
+  function render(data){
+    state.data = data;
+    var label = data.fetched_label || "";
+    document.getElementById("updatedLabel").textContent =
+      label ? ("最終更新："+label+" 時点の内容") : "最終更新：―";
+
+    var items = data.items || [];
+    var topics = data.topics || [];
+
+    /* --- HOME --- */
+    var home = "";
+    // election countdown hero: nearest upcoming election
+    var elections = items.filter(function(it){ return it.topic==="election" && it.date && daysLeft(it.date)>=0; })
+                         .sort(function(a,b){ return a.date<b.date?-1:1; });
+    if(elections.length){
+      var e = elections[0], n = daysLeft(e.date);
+      home += '<div class="hero"><div class="kicker">🗳 選挙カウントダウン</div>'
+            + "<h2>"+esc(e.title)+"</h2>"
+            + '<div class="date">投票日：'+esc(fmtDate(e.date))+"</div>"
+            + '<span class="count"><small>投票日まで</small> あと'+n+"日</span></div>";
+    }
+    // digest
+    home += '<section class="block"><h3>今週の政治、3行で</h3><div class="digest">';
+    (data.digest||[]).forEach(function(dg){
+      home += "<p>"+esc(dg.text)+' <a href="'+esc(dg.source_url)+'" target="_blank" rel="noopener">出典</a></p>';
+    });
+    home += "</div></section>";
+    // near dates preview
+    var dated = items.filter(function(it){ return it.date && daysLeft(it.date)>=0; })
+                     .sort(function(a,b){ return a.date<b.date?-1:1; });
+    home += '<section class="block"><h3>日付が近いもの</h3>';
+    dated.slice(0,4).forEach(function(it){ home += cardHTML(data, it); });
+    home += "</section>";
+    // topic shortcuts
+    home += '<section class="block"><h3>テーマから見る</h3><div class="shortcuts">';
+    TOPIC_ORDER.forEach(function(id){
+      var t = topics.filter(function(x){return x.id===id;})[0]; if(!t) return;
+      var cnt = items.filter(function(it){return it.topic===id;}).length;
+      home += '<button type="button" class="shortcut" data-jump="'+id+'">'
+            + '<span class="dot chip '+CHIP_CLS[id]+'" style="background:var(--chip-'+id+')">'+TOPIC_ICON[id]+"</span>"
+            + '<span><span class="t">'+esc(t.label)+'</span><br><span class="n">'+cnt+"件</span></span></button>";
+    });
+    home += "</div></section>";
+    // home screen guide
+    home += '<section class="block"><div class="guide"><h4>📱 ホーム画面に追加すると便利です</h4>'
+          + "<p>Android（Chrome）：右上の「︙」メニュー →「ホーム画面に追加」</p>"
+          + "<p>iPhone（Safari）：下の共有ボタン →「ホーム画面に追加」</p>"
+          + "<p>内容は毎晩自動で新しいものに入れ替わります。たまに開いて「最終更新」の日付を見てください。</p>"
+          + "</div></section>";
+    document.getElementById("view-home").innerHTML = home;
+
+    /* --- DATES --- */
+    var sorted = items.slice().sort(function(a,b){
+      if(a.date && b.date) return a.date<b.date?-1:1;
+      if(a.date) return -1; if(b.date) return 1; return 0;
+    });
+    var dh = '<section class="block"><h3>日付が近い順（全'+items.length+'件）</h3>';
+    sorted.forEach(function(it){ dh += cardHTML(data, it); });
+    dh += "</section>";
+    document.getElementById("view-dates").innerHTML = dh;
+
+    /* --- TOPICS --- */
+    var th = "";
+    TOPIC_ORDER.forEach(function(id){
+      var t = topics.filter(function(x){return x.id===id;})[0]; if(!t) return;
+      var list = items.filter(function(it){return it.topic===id;});
+      th += '<div class="topic-head" id="topic-'+id+'"><span class="dot" style="background:var(--chip-'+id+')">'+TOPIC_ICON[id]+"</span>"
+          + "<h3>"+esc(t.label)+'</h3><span class="sub">'+esc(t.sub||"")+"</span></div>";
+      list.forEach(function(it){ th += cardHTML(data, it); });
+    });
+    document.getElementById("view-topics").innerHTML = th;
+
+    // wire shortcuts
+    Array.prototype.forEach.call(document.querySelectorAll("[data-jump]"), function(btn){
+      btn.addEventListener("click", function(){
+        switchView("topics");
+        var el = document.getElementById("topic-"+btn.getAttribute("data-jump"));
+        if(el) setTimeout(function(){ el.scrollIntoView({behavior:"smooth", block:"start"}); }, 60);
+      });
+    });
+  }
+
+  function switchView(name){
+    ["home","dates","topics"].forEach(function(v){
+      document.getElementById("view-"+v).classList.toggle("active", v===name);
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("nav.tabbar button"), function(b){
+      b.classList.toggle("active", b.getAttribute("data-view")===name);
+    });
+    window.scrollTo(0,0);
+  }
+  Array.prototype.forEach.call(document.querySelectorAll("nav.tabbar button"), function(b){
+    b.addEventListener("click", function(){ switchView(b.getAttribute("data-view")); });
+  });
+
+  function load(){
+    var bust = "?t=" + Date.now();
+    fetch("data.json"+bust, {cache:"no-store"})
+      .then(function(r){ if(!r.ok) throw new Error("http "+r.status); return r.json(); })
+      .then(render)
+      .catch(function(){
+        // fall back to a plain fetch (may hit service-worker cache when offline)
+        fetch("data.json").then(function(r){ return r.json(); }).then(render).catch(function(){
+          document.getElementById("updatedLabel").textContent = "読み込みに失敗しました";
+          document.getElementById("view-home").innerHTML =
+            '<div class="empty">内容を読み込めませんでした。<br>通信のよい場所で、もう一度開いてみてください。</div>';
+        });
+      });
+  }
+  document.getElementById("reloadBtn").addEventListener("click", load);
+  load();
+
+  if("serviceWorker" in navigator){
+    navigator.serviceWorker.register("sw.js").catch(function(){});
+  }
+})();
+</script>
+</body>
+</html>

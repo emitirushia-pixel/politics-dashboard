@@ -1,0 +1,50 @@
+name: nightly-update
+
+# 毎晩 05:37 JST に自動更新し、失敗・遅延に備えて 08:37 JST にもう一度試す。
+# GitHub の cron は UTC 指定: 20:37 UTC = 05:37 JST / 23:37 UTC = 08:37 JST
+on:
+  schedule:
+    - cron: '37 20 * * *'
+    - cron: '37 23 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nightly-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run updater
+        env:
+          # リポジトリの Secrets に GEMINI_API_KEY が無い間は、
+          # update.py が警告を出して正常終了し、data.json は変わらない。
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python update.py
+
+      - name: Commit and push if data changed
+        run: |
+          if git diff --quiet -- data.json; then
+            echo "data.json unchanged; nothing to commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data.json
+            git commit -m "夜間自動更新: data.json ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+            git push
+          fi
