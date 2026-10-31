@@ -201,8 +201,14 @@ def _parse_egov(xml):
 
 
 def fetch_egov():
-    """e-Gov パブリックコメント公式RSS → deadline テーマの素材。"""
+    """e-Gov パブリックコメント公式RSS → deadline テーマの素材。
+
+    フィードは件数が多いので、締切が近い順に最大12件へ絞る
+    （日付が取れないものは後ろに回す）。
+    """
     records = _parse_egov(fetch_text(EGOV_RSS))
+    records.sort(key=lambda r: (r.get("date") is None, r.get("date") or ""))
+    records = records[:12]
     log(f"e-Gov: {len(records)} records")
     return records
 
