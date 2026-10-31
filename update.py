@@ -167,17 +167,25 @@ def parse_tables(html):
 
 
 # ---------------------------------------------------------------- fetchers
-def fetch_egov():
-    """e-Gov パブリックコメント公式RSS → deadline テーマの素材。"""
-    xml = fetch_text(EGOV_RSS)
+def _localname(tag):
+    return tag.rsplit("}", 1)[-1] if "}" in tag else tag
+
+
+def _parse_egov(xml):
+    """RSS 1.0(RDF) / 2.0 どちらでも、名前空間に依存せず item を拾う。"""
     root = ET.fromstring(xml)
     records = []
-    for item in root.iter("item"):
-        title = (item.findtext("title") or "").strip()
-        link = (item.findtext("link") or "").strip()
-        desc = re.sub(r"<[^>]+>", " ", item.findtext("description") or "")
+    for item in root.iter():
+        if _localname(item.tag) != "item":
+            continue
+        fields = {}
+        for child in item:
+            fields.setdefault(_localname(child.tag), (child.text or "").strip())
+        title = fields.get("title", "")
+        link = fields.get("link", "")
+        desc = re.sub(r"<[^>]+>", " ", fields.get("description", ""))
         desc = re.sub(r"\s+", " ", desc).strip()
-        pub = (item.findtext("pubDate") or "").strip()
+        pub = fields.get("pubDate", "") or fields.get("date", "")
         if not title or not link:
             continue
         records.append(
@@ -189,6 +197,12 @@ def fetch_egov():
                 "text": (title + " " + desc)[:1500],
             }
         )
+    return records
+
+
+def fetch_egov():
+    """e-Gov パブリックコメント公式RSS → deadline テーマの素材。"""
+    records = _parse_egov(fetch_text(EGOV_RSS))
     log(f"e-Gov: {len(records)} records")
     return records
 
@@ -730,6 +744,19 @@ def check_election_items(items, records):
     return items
 
 
+def _as_float(v):
+    """数値でも "63.0%" のような文字列でも float にする。できなければ None。"""
+    if isinstance(v, (int, float)):
+        return float(v)
+    if isinstance(v, str):
+        s = v.strip().rstrip("%％").strip()
+        try:
+            return float(s)
+        except ValueError:
+            return None
+    return None
+
+
 def check_poll_items(items, records):
     """世論調査テーマの追加検証: 数字が抽出事実と一致すること。"""
     if len(records) != 1 or len(items) != 1:
@@ -744,9 +771,10 @@ def check_poll_items(items, records):
     if p.get("agency") != fact["agency"]:
         raise ValueError("poll: agency mismatch")
     for key in ("support", "oppose"):
-        v = p.get(key)
-        if not isinstance(v, (int, float)) or abs(float(v) - fact[key]) > 0.051:
-            raise ValueError(f"poll: {key} mismatch: {v} != {fact[key]}")
+        v = _as_float(p.get(key))
+        if v is None or abs(v - fact[key]) > 0.051:
+            raise ValueError(f"poll: {key} mismatch: {p.get(key)} != {fact[key]}")
+        p[key] = v  # 表示用に数値へ正規化する
     if p.get("surveyed_on") != fact["surveyed_on"]:
         raise ValueError("poll: surveyed_on mismatch")
     it["date"] = None
