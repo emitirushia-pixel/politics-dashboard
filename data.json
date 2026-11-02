@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-11-02T09:03:18+09:00",
-  "fetched_label": "11月2日 09:03 時点",
+  "fetched_at": "2026-11-03T06:22:26+09:00",
+  "fetched_label": "11月3日 06:22 時点",
   "digest": [
     {
-      "text": "12月から来年2月まで電気・ガス料金への国の助けが再開され、3か月合計で7000円程度安くなる見込みです。",
+      "text": "12月から来年2月まで電気・ガス料金への国の助けが再開され、一般家庭で3か月合計7000円程度安くなる見込みです。",
       "source_url": "https://www.jiji.com/jc/article?k=2026102901064&g=pol"
     },
     {
@@ -11,7 +11,7 @@
       "source_url": "https://www.jiji.com/jc/article?k=2026102901064&g=pol"
     },
     {
-      "text": "住民税がかかり始める年収の目安が、約110万円から約119万円に引き上げられます。",
+      "text": "住民税がかかり始める年収の目安が、約110万円から約119万円に上がります。",
       "source_url": "https://www.lettuceclub.net/news/article/1433136/"
     }
   ],
@@ -113,322 +113,6 @@
         ]
       ],
       "source_url": "https://topics.smt.docomo.ne.jp/article/yomiuri/politics/20261029-567-GYT1T00374"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "法人税基本通達などの一部改正（案）への意見募集",
-      "date": "2026-11-28",
-      "summary": "国税庁が、法人税基本通達などを一部改正する案について、みんなからの意見を募集しています。受付の締め切りは2026年11月28日の夜11時59分までです。",
-      "why": "これからの税金のルールに関わる大切な内容について、自分の意見を伝えるチャンスだからです。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "法人税基本通達",
-          "会社が払う税金（法人税）の計算やルールについて、国税庁がわかりやすく示したきまりのことです"
-        ]
-      ],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=410080069&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "医薬部外品原料規格2021を改正する件（案）の意見募集",
-      "date": "2026-11-29",
-      "summary": "厚生労働省が、医薬部外品（薬用化粧品など）の原料の決まりを変える案について意見を募集しています。締め切りは2026年11月29日の夜0時です。",
-      "why": "私たちが使う身近な製品の原料のルールが変わるかもしれないためです。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "医薬部外品",
-          "治療というよりは、予防や衛生を目的として使われる医薬品に似た効果を持つもののことです"
-        ]
-      ],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260219&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "ヒトゲノム編集胚等の取扱い規制に関する関係指針の一部改正等の意見募集",
-      "date": "2026-11-30",
-      "summary": "文部科学省が、人の受精卵などに関する新しい法律にあわせたルールの改正案について意見を募集しています。締め切りは2026年11月30日の夜11時59分です。",
-      "why": "生命の倫理や科学技術のルールに関わる非常に重要なテーマだからです。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "ヒトゲノム編集胚",
-          "遺伝子を人工的に書き換える技術を使った受精卵などのことです"
-        ]
-      ],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=185001514&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "ブロードバンドのユニバーサルサービス制度に関する意見募集",
-      "date": "2026-11-30",
-      "summary": "総務省が、インターネット回線などを日本中で公平に使えるようにする仕組みのお金（負担金や交付金）について意見を募集しています。締め切りは2026年11月30日の夜11時59分です。",
-      "why": "インターネットの料金やサービス維持の仕組みに関わるからです。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "ユニバーサルサービス制度",
-          "日本中どこにいても、必要なサービスが公平に使えるようにみんなで支え合う仕組みのことです"
-        ]
-      ],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210787&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "「ジャパニーズウイスキー」の地理的表示指定（案）への意見募集",
-      "date": "2026-11-30",
-      "summary": "国税庁が、お酒のブランドを守るために「ジャパニーズウイスキー」という名前のルール（地理的表示）を指定する案について意見を募集しています。締め切りは2026年11月30日の夜11時59分です。",
-      "why": "日本のウイスキーのブランドや品質を守るための大切なルールだからです。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "地理的表示",
-          "その地域ならではの品質や特徴を持った商品の名前を、ブランドとして国が守る仕組みのことです"
-        ]
-      ],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=410080068&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "基礎ぐいを有する建築物の転倒に対する検証・改修指針（案）の意見募集",
-      "date": "2026-11-29",
-      "summary": "国土交通省が、建物の土台である杭（くい）に関する安全の指針案について意見を募集しています。締め切りは2026年11月29日の朝9時30分です。",
-      "why": "建物が倒れないようにするための安全対策に関わる重要な内容だからです。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "基礎ぐい",
-          "建物の重さをしっかりと支えるために、地面の奥深くへと打ち込まれる柱や杭のことです"
-        ]
-      ],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260725&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "厚生労働大臣が指定する医薬品及び期間の一部改正（案）の意見募集",
-      "date": "2026-11-29",
-      "summary": "厚生労働省が、医薬品のルールに関する指定や期間を変える案について意見を募集しています。締め切りは2026年11月29日の夜0時です。",
-      "why": "お薬の安全や取り扱いに関する法律のルールに関わるためです。",
-      "changes": "まだ決まっていません",
-      "glossary": [],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260246&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "トド管理基本方針の一部改正案についての意見・情報募集",
-      "date": "2026-11-28",
-      "summary": "水産庁が、トドの管理に関する方針の変更案について意見や情報を募集しています。締め切りは2026年11月28日の夜11時59分です。",
-      "why": "野生動物の保護や漁業への被害対策のバランスを取るために大切だからです。",
-      "changes": "まだ決まっていません",
-      "glossary": [],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004440&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "ヒトゲノム編集胚等の取扱いの規制に関する法律施行令（案）の意見募集",
-      "date": "2026-11-28",
-      "summary": "厚生労働省が、人の受精卵などの遺伝子編集を規制する法律の細かいルール（政令案）について意見を募集しています。締め切りは2026年11月28日の夜11時59分です。",
-      "why": "新しい科学技術のルールを定めるための重要な手続きだからです。",
-      "changes": "まだ決まっていません",
-      "glossary": [],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260239&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "ヒトゲノム編集胚等の取扱いの規制に関する法律施行規則（案）の意見募集",
-      "date": "2026-11-28",
-      "summary": "厚生労働省が、人の受精卵などの規制に関する法律の手続きやルール（省令案）について意見を募集しています。締め切りは2026年11月28日の夜11時59分です。",
-      "why": "法律を具体的にどう実行していくかを決める大切なステップだからです。",
-      "changes": "まだ決まっていません",
-      "glossary": [],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260240&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "ヒトゲノム編集胚等の取扱いに関する指針（案）の意見募集",
-      "date": "2026-11-28",
-      "summary": "厚生労働省が、人の受精卵などの取扱いについて守るべきガイドライン（指針案）について意見を募集しています。締め切りは2026年11月28日の夜11時59分です。",
-      "why": "研究や治療を行うときの具体的なルールを定めるためです。",
-      "changes": "まだ決まっていません",
-      "glossary": [],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260241&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "畜舎等の建築等及び利用の特例に関する法律施行規則の一部を改正する省令案の意見募集",
-      "date": "2026-11-29",
-      "summary": "国土交通省が、牛舎や豚舎などの建て方や使い方の特例ルールを変える案について意見を募集しています。締め切りは2026年11月29日の夜0時です。",
-      "why": "農業や畜産業に関わる建物のルールをより良く見直すためです。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "畜舎",
-          "牛や豚、鶏などの家畜を飼育するための建物のことです"
-        ]
-      ],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260729&Mode=0"
-    },
-    {
-      "topic": "diet",
-      "kind": "diet",
-      "title": "租税及び社会保険料による負担の軽減のための飲食料品に係る消費税率の臨時的な引下げ及び就業者負担軽減支援金の支給に関する法律案",
-      "date": null,
-      "summary": "食べ物などの消費税率を一時的に下げたり、働く人の負担を軽くするためにお金を配ったりするための法律案です。私たちの暮らしや買い物のしかたに大きく関わる内容です。",
-      "why": "日々の買い物や働く人のお金の負担に関わるため、生活に直接影響します。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "消費税率",
-          "買い物などをしたときにかかる税金の割合のことです。"
-        ]
-      ],
-      "source_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222001.htm"
-    },
-    {
-      "topic": "diet",
-      "kind": "diet",
-      "title": "地方公務員災害補償法及び地方公務員等共済組合法の一部を改正する法律案",
-      "date": null,
-      "summary": "地方で働く公務員が仕事中などにけがをしたときの補償や、お財布や暮らしを支える共済のルールを直すための法律案です。働く人たちの安心を守るための内容です。",
-      "why": "地方で働く公務員の仕事中のけがや生活のサポートに関わるためです。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "共済組合",
-          "公務員などが加入し、病気やケガ、退職したときにお金がもらえる仕組みのことです。"
-        ]
-      ],
-      "source_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222005.htm"
-    },
-    {
-      "topic": "diet",
-      "kind": "diet",
-      "title": "地方公共団体の議会の議員及び長の選挙期日等の臨時特例に関する法律案",
-      "date": null,
-      "summary": "地方の議会の議員や首長を選ぶ選挙の日程などについて、特別なルールを定めるための法律案です。地域のみんなの代表を選ぶ大切な仕組みに関係しています。",
-      "why": "地域のリーダーや代表を選ぶ選挙のスケジュールに関わるためです。",
-      "changes": "まだ決まっていません",
-      "glossary": [],
-      "source_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222016.htm"
-    },
-    {
-      "topic": "diet",
-      "kind": "diet",
-      "title": "就業者の租税及び社会保険料による負担の軽減のために講ずべき措置に関する法律案",
-      "date": null,
-      "summary": "働いている人たちが払う税金や社会保険料の負担を軽くするために、どんな対策をとるかを決める法律案です。働く人たちの手元に残るお金が増える可能性があります。",
-      "why": "働く人たちが払うお金の負担を軽くするため、多くの人の生活に影響します。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "社会保険料",
-          "病気や老後に備えて、みんなで出し合うお金のことです。"
-        ]
-      ],
-      "source_url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE36B6.htm"
-    },
-    {
-      "topic": "diet",
-      "kind": "diet",
-      "title": "消費税の税率を当分の間の措置として引き下げる等のために講ずべき措置に関する法律案",
-      "date": null,
-      "summary": "一定の期間、消費税の税率を下げるために必要なことを行うための法律案です。買い物のときの値段や家計の負担に直接つながる話し合いが行われます。",
-      "why": "私たちがモノを買うときの税金の割合が変わるため、家計に大きな影響があります。",
-      "changes": "まだ決まっていません",
-      "glossary": [],
-      "source_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222100222002.htm"
-    },
-    {
-      "topic": "diet",
-      "kind": "diet",
-      "title": "国家公務員災害補償法及び国家公務員共済組合法の一部を改正する法律案",
-      "date": null,
-      "summary": "国で働く公務員が仕事中にけがをしたときの補償や、生活を支える共済のルールを新しく直すための法律案です。国の仕事をする人たちの働く環境を整えます。",
-      "why": "国で働く人たちのけがの補償や暮らしの仕組みに関わるためです。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "国家公務員",
-          "国の機関のために働く人たちのことです。"
-        ]
-      ],
-      "source_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222004.htm"
-    },
-    {
-      "topic": "election",
-      "kind": "election",
-      "title": "2027年統一地方選挙（道府県・政令指定都市の首長・議員選挙）",
-      "date": "2027-04-11",
-      "summary": "全国の知事や県議会議員などを決める選挙の前半戦だよ。2027年4月11日に行われるよ。",
-      "why": "自分の住んでいる地域のリーダーや代表を選ぶため。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "首長",
-          "知事や市長など、地域をまとめる一番えらい人のこと"
-        ],
-        [
-          "政令指定都市",
-          "国から特別な大きな力をもらっている、たくさんの人が住む大きな市のこと"
-        ]
-      ],
-      "source_url": "https://ja.wikipedia.org/wiki/第21回統一地方選挙"
-    },
-    {
-      "topic": "election",
-      "kind": "election",
-      "title": "石川県議会議員選挙",
-      "date": "2027-04-11",
-      "summary": "石川県で働く議員を選ぶ選挙だよ。2027年4月11日の前半戦の日程で行われるよ。",
-      "why": "石川県の大切な話し合いをする人を選ぶため。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "県議会議員",
-          "都道府県のルールやお金の使い方を話し合う人のこと"
-        ]
-      ],
-      "source_url": "https://ja.wikipedia.org/wiki/第21回統一地方選挙"
-    },
-    {
-      "topic": "election",
-      "kind": "election",
-      "title": "2027年統一地方選挙（政令市以外の市・特別区・町村の首長・議員選挙）",
-      "date": "2027-04-25",
-      "summary": "小さな市や町などで、リーダーや議員を選ぶ選挙の後半戦だよ。2027年4月25日に行われるよ。",
-      "why": "身近な地域のくらしをよくする人を選ぶため。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "特別区",
-          "東京都にある特別な区のこと"
-        ]
-      ],
-      "source_url": "https://ja.wikipedia.org/wiki/第21回統一地方選挙"
-    },
-    {
-      "topic": "election",
-      "kind": "election",
-      "title": "石川県内の市長選挙・町長選挙・市議会議員選挙など",
-      "date": "2027-04-25",
-      "summary": "石川県の中にある市や町のリーダーや議員を選ぶ選挙だよ。2027年4月25日の後半戦の日程で行われるよ。",
-      "why": "石川県のそれぞれの市や町のくらしを支える人を選ぶため。",
-      "changes": "まだ決まっていません",
-      "glossary": [],
-      "source_url": "https://ja.wikipedia.org/wiki/第21回統一地方選挙"
     },
     {
       "topic": "poll",
@@ -551,6 +235,347 @@
         "oppose": 33.9,
         "surveyed_on": "2026-10-04"
       }
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "法人税基本通達などの一部改正案への意見募集",
+      "date": "2026-11-28",
+      "summary": "国税庁が、法人税基本通達などの内容を変える案について、みんなからの意見を募集しています。意見を出せる締切は2026年11月28日までです。",
+      "why": "国税のルールが変わるため、関係する企業などに大きな影響があるからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "法人税基本通達",
+          "会社が払う税金（法人税）のルールを国税庁がわかりやすく解説したきまりのことです。"
+        ]
+      ],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=410080069&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "医薬部外品原料規格の改正案に対する意見募集",
+      "date": "2026-11-29",
+      "summary": "厚生労働省が、医薬部外品の原料のルールを変える案について意見を募集しています。締切は2026年11月29日です。",
+      "why": "医薬部外品に使われる原料の安全や基準に関わる大切なルールだからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "医薬部外品",
+          "薬と化粧品の中間にあたるもので、効果が穏やかな商品のことです。"
+        ]
+      ],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260219&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "ヒトゲノム編集胚などのルールに関する意見募集",
+      "date": "2026-11-30",
+      "summary": "文部科学省が、ヒトゲノム編集胚のルールを作ることに伴う指針の改正案について意見を求めています。締切は2026年11月30日です。",
+      "why": "生命の倫理に関わる最先端の科学技術のルールを決めるため、広く意見を聞く必要があるからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "ゲノム編集",
+          "生き物の設計図（遺伝子）を狙ったとおりに書き換える技術のことです。"
+        ]
+      ],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=185001514&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "ブロードバンドのユニバーサルサービス制度に関する意見募集",
+      "date": "2026-11-30",
+      "summary": "総務省が、インターネット回線（ブロードバンド）の制度に関するお金のやり取りの認可について意見を募集しています。締切は2026年11月30日です。",
+      "why": "日本中で安定してインターネットを使える環境を維持するための費用に関わるからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "ブロードバンド",
+          "高速でたくさんのデータを送ることができるインターネット回線のことです。"
+        ]
+      ],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210787&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "ジャパニーズウイスキーの指定案に関する意見募集",
+      "date": "2026-11-30",
+      "summary": "国税庁が、ジャパニーズウイスキーを「地理的表示」として指定する案について意見を募集しています。締切は2026年11月30日です。",
+      "why": "ジャパニーズウイスキーのブランドを守り、品質の基準をはっきりさせるためです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "地理的表示",
+          "その地域ならではの品質や特徴を持った商品の名前を、ブランドとして国が守る仕組みです。"
+        ]
+      ],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=410080068&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "基礎ぐいを持つ建物の転倒に対する検証・改修指針案の意見募集",
+      "date": "2026-11-29",
+      "summary": "国土交通省が、建物の基礎に関する新しい検証や改修のルール案について意見を求めています。締切は2026年11月29日です。",
+      "why": "地震などで建物が倒れないように安全性を確かめるための重要な指針だからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "基礎ぐい",
+          "建物をしっかり支えるために、地面の奥深くへと打ち込む柱のようなものです。"
+        ]
+      ],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260725&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "厚生労働大臣が指定する医薬品及び期間の一部改正案に関する意見募集",
+      "date": "2026-11-29",
+      "summary": "厚生労働省が、法律に基づいて医薬品や期間を指定するルールを変える案について意見を募集しています。締切は2026年11月29日です。",
+      "why": "医薬品の安全管理や品質を守るための対象を正しく決める必要があるからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260246&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "トド管理基本方針の一部改正案についての意見募集",
+      "date": "2026-11-28",
+      "summary": "水産庁が、トドの管理に関する方針を変える案について意見や情報を募集しています。締切は2026年11月28日です。",
+      "why": "漁業への被害を防ぎつつ、トドの生態系を守るバランスを取るために大切だからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004440&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "ヒトゲノム編集胚等の取扱いの規制に関する法律施行令案の意見募集",
+      "date": "2026-11-28",
+      "summary": "厚生労働省が、ヒトゲノム編集胚の法律を実際に動かすための命令（政令）の案について意見を求めています。締切は2026年11月28日です。",
+      "why": "新しい法律をスタートさせるための細かいルールを定めるためです。",
+      "changes": "まだ決まっていません",
+      "glossary": [],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260239&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "ヒトゲノム編集胚等の取扱いの規制に関する法律施行規則案の意見募集",
+      "date": "2026-11-28",
+      "summary": "厚生労働省が、法律を守るためのさらに細かいルール（省令）の案について意見を募集しています。締切は2026年11月28日です。",
+      "why": "法律の内容を具体的に実行するための決まりを作るためです。",
+      "changes": "まだ決まっていません",
+      "glossary": [],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260240&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "ヒトゲノム編集胚等の取扱いに関する指針案の意見募集",
+      "date": "2026-11-28",
+      "summary": "厚生労働省が、ヒトゲノム編集胚の扱い方についてのガイドライン（指針）案について意見を求めています。締切は2026年11月28日です。",
+      "why": "研究や治療を行うときの具体的な道しるべを示すためです。",
+      "changes": "まだ決まっていません",
+      "glossary": [],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260241&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "畜舎等の建築等及び利用の特例に関する法律施行規則の一部を改正する省令案の意見募集",
+      "date": "2026-11-29",
+      "summary": "国土交通省が、牛舎や豚舎などの建築ルールに関する省令の改正案について意見を募集しています。締切は2026年11月29日です。",
+      "why": "農家が建てる畜舎の仕組みや手続きをスムーズにするためです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "畜舎",
+          "牛や豚、鶏などを飼育するための建物のことです。"
+        ]
+      ],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260729&Mode=0"
+    },
+    {
+      "topic": "diet",
+      "kind": "diet",
+      "title": "租税及び社会保険料による負担の軽減のための飲食料品に係る消費税率の臨時的な引下げ及び就業者負担軽減支援金の支給に関する法律案",
+      "date": null,
+      "summary": "食べ物にかかる消費税の税率を期間限定で引き下げたり、働いている人の負担を軽くするためにお金を配ったりするための法律案です。私たちの生活費の負担を減らすことを目指しています。",
+      "why": "日々の買い物代や働き手への負担が大きく変わるため、私たちの生活に直接関わるからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "消費税",
+          "買い物やサービスを受けるときに払う税金です。"
+        ],
+        [
+          "社会保険料",
+          "医療保険や年金などのために、みんなで出し合うお金です。"
+        ]
+      ],
+      "source_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222001.htm"
+    },
+    {
+      "topic": "diet",
+      "kind": "diet",
+      "title": "地方公務員災害補償法及び地方公務員等共済組合法の一部を改正する法律案",
+      "date": null,
+      "summary": "地方で働く公務員が仕事中や通勤中にケガをしたり病気をしたりしたときの補償や、共済の仕組みを直すための法律案です。働く人たちが安心して仕事を続けられるようにします。",
+      "why": "地方で働く公務員の生活や安全を守る大切なルールだからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "公務員",
+          "国や地域のために働く人たちのことです。"
+        ],
+        [
+          "共済組合",
+          "公務員などが加入する、健康保険や年金などのまとまりです。"
+        ]
+      ],
+      "source_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222005.htm"
+    },
+    {
+      "topic": "diet",
+      "kind": "diet",
+      "title": "地方公共団体の議会の議員及び長の選挙期日等の臨時特例に関する法律案",
+      "date": null,
+      "summary": "地方の議会の議員や首長を選ぶ選挙の日程などについて、特別なルールを定めるための法律案です。地域のリーダーを選ぶ選挙をスムーズに行うために話し合われます。",
+      "why": "自分たちの住む地域の代表を選ぶ大切な選挙のルールに関わるからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "地方公共団体",
+          "都道府県や市区町村のことです。"
+        ],
+        [
+          "長",
+          "都道府県知事や市区町村長など、地域をまとめるリーダーのことです。"
+        ]
+      ],
+      "source_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222016.htm"
+    },
+    {
+      "topic": "diet",
+      "kind": "diet",
+      "title": "就業者の租税及び社会保険料による負担の軽減のために講ずべき措置に関する法律案",
+      "date": null,
+      "summary": "働いている人たちが払う税金や社会保険料の負担を軽くするために、どのような対策をとるべきかを決めるための法律案です。働く人の手元に残るお金を増やすことをねらっています。",
+      "why": "働く人みんなの収入や税金の負担に影響するからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "就業者",
+          "仕事について収入を得ている人たちのことです。"
+        ],
+        [
+          "租税",
+          "国や自治体に納める税金のことです。"
+        ]
+      ],
+      "source_url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE36B6.htm"
+    },
+    {
+      "topic": "diet",
+      "kind": "diet",
+      "title": "国会議員の秘書の給与等に関する法律の一部を改正する法律案",
+      "date": null,
+      "summary": "国会議員をサポートする「秘書」の給料や働き方のルールを変えるための法律案です。秘書たちがしっかり働けるように給与などの決まりを直します。",
+      "why": "国会議員の活動を支える大切なスタッフの給料に関わるルールだからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "国会議員",
+          "国民の代表として国会で話し合いをする人たちです。"
+        ],
+        [
+          "秘書",
+          "議員の仕事のお手伝いやスケジュール管理をする人たちです。"
+        ]
+      ],
+      "source_url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE374A.htm"
+    },
+    {
+      "topic": "diet",
+      "kind": "diet",
+      "title": "消費税の税率を当分の間の措置として引き下げる等のために講ずべき措置に関する法律案",
+      "date": null,
+      "summary": "今しばらくの間、消費税の税率を低くするための対策などを実行するための法律案です。買い物のときの負担を軽くすることを目指しています。",
+      "why": "私たちが買い物で支払うお金の金額に直接つながるためです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "消費税率",
+          "買い物にかかる消費税の割合のことです。"
+        ]
+      ],
+      "source_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222100222002.htm"
+    },
+    {
+      "topic": "election",
+      "kind": "election",
+      "title": "2027年統一地方選挙（道府県・政令指定都市の首長・議員選挙）",
+      "date": "2027-04-11",
+      "summary": "全国の知事や県議会議員などを決める選挙のはじめの投票日が、2027年4月11日に行われます。この日は、大きな地域のリーダーや議員を選ぶ大切な日です。",
+      "why": "自分の住む地域のリーダーや議員を選ぶため。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "首長",
+          "知事や市長などのリーダーのことです"
+        ],
+        [
+          "政令指定都市",
+          "国から特別な決まりをもらった大きな市のことです"
+        ]
+      ],
+      "source_url": "https://ja.wikipedia.org/wiki/第21回統一地方選挙"
+    },
+    {
+      "topic": "election",
+      "kind": "election",
+      "title": "石川県議会議員選挙",
+      "date": "2027-04-11",
+      "summary": "石川県で働く議員を選ぶための選挙が、2027年4月11日に行われます。これは前半戦の日程で行われる選挙のひとつです。",
+      "why": "石川県の代表となる議員を選ぶため。",
+      "changes": "まだ決まっていません",
+      "glossary": [],
+      "source_url": "https://ja.wikipedia.org/wiki/第21回統一地方選挙"
+    },
+    {
+      "topic": "election",
+      "kind": "election",
+      "title": "2027年統一地方選挙（政令市以外の市・特別区・町村の首長・議員選挙）",
+      "date": "2027-04-25",
+      "summary": "全国の市や町などのリーダーや議員を決める選挙の終わりの投票日が、2027年4月25日に行われます。前半戦とは違う地域の選挙がまとめて行われます。",
+      "why": "身近な地域のリーダーや議員を選ぶため。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "特別区",
+          "東京にある特別な区のことです"
+        ]
+      ],
+      "source_url": "https://ja.wikipedia.org/wiki/第21回統一地方選挙"
+    },
+    {
+      "topic": "election",
+      "kind": "election",
+      "title": "石川県内の市長選挙・町長選挙・市議会議員選挙など",
+      "date": "2027-04-25",
+      "summary": "石川県の中にある市や町のリーダーや議員を選ぶ選挙が、2027年4月25日に行われます。これは後半戦の日程に含まれる選挙です。",
+      "why": "石川県内のそれぞれの市や町の代表を選ぶため。",
+      "changes": "まだ決まっていません",
+      "glossary": [],
+      "source_url": "https://ja.wikipedia.org/wiki/第21回統一地方選挙"
     }
   ]
 }
