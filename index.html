@@ -22,7 +22,7 @@
     --pink:#e75480; --pink-soft:#f78fb3; --cream:#fff7f2; --ink:#4a3040;
     --ink-soft:#8a6a7a; --card:#ffffff; --line:#f6d7e2; --coral:#ff6b5e;
     --chip-life:#f78fb3; --chip-diet:#a58fd6; --chip-deadline:#63b995;
-    --chip-election:#f2a541; --chip-poll:#5ea8d3;
+    --chip-election:#f6bd60; --chip-poll:#5ea8d3;
   }
   *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
   html,body{ margin:0; padding:0; }
@@ -52,7 +52,7 @@
   .view{ display:none; }
   .view.active{ display:block; }
   .hero{
-    background:linear-gradient(135deg,#f78fb3,#e75480); color:#fff; border-radius:22px;
+    background:linear-gradient(135deg,#f78fb3,#e75480); color:#fff; border-radius:26px;
     padding:18px 18px 16px; box-shadow:0 8px 20px rgba(231,84,128,.28); margin-bottom:16px;
   }
   .hero .kicker{ font-size:12px; font-weight:700; opacity:.92; letter-spacing:.08em; }
@@ -65,15 +65,15 @@
   }
   .hero .count small{ font-size:12px; font-weight:700; }
   section.block{ margin-bottom:20px; }
-  section.block > h3{ font-size:16.5px; margin:0 0 10px; color:var(--ink); display:flex; align-items:center; gap:8px; }
+  section.block > h3{ font-size:17px; margin:0 0 10px; color:var(--ink); display:flex; align-items:center; gap:8px; }
   section.block > h3::before{ content:""; width:9px; height:9px; border-radius:50%; background:var(--pink-soft); flex:none; }
-  .digest{ background:#fff; border:2px solid var(--line); border-radius:18px; padding:6px 16px; box-shadow:0 4px 12px rgba(231,84,128,.07); }
-  .digest p{ margin:0; padding:11px 0; font-size:14.5px; line-height:1.65; border-bottom:1.5px dashed var(--line); }
+  .digest{ background:#fff; border:2px solid var(--line); border-radius:22px; padding:6px 16px; box-shadow:0 6px 16px rgba(231,84,128,.09); }
+  .digest p{ margin:0; padding:11px 0; font-size:15px; line-height:1.7; border-bottom:1.5px dashed var(--line); }
   .digest p:last-child{ border-bottom:none; }
   .digest a{ color:var(--pink); font-weight:700; font-size:12.5px; text-decoration:none; white-space:nowrap; }
   .card{
-    background:var(--card); border:2px solid var(--line); border-radius:18px;
-    padding:14px 15px; margin-bottom:12px; box-shadow:0 4px 12px rgba(231,84,128,.07);
+    background:var(--card); border:2px solid var(--line); border-radius:22px;
+    padding:16px 16px; margin-bottom:14px; box-shadow:0 6px 16px rgba(231,84,128,.09);
   }
   .card .meta{ display:flex; flex-wrap:wrap; gap:6px; align-items:center; margin-bottom:8px; }
   .chip{
@@ -85,11 +85,11 @@
   .datechip{ font-size:11.5px; font-weight:700; color:var(--ink-soft); background:#fdf0f4; border-radius:999px; padding:3px 10px; }
   .daysleft{ font-size:11.5px; font-weight:800; color:var(--coral); background:#fff0ee; border:1.5px solid #ffc9c2; border-radius:999px; padding:2.5px 10px; }
   .daysleft.far{ color:var(--ink-soft); background:#f7f7f7; border-color:#e8e8e8; }
-  .card h4{ font-size:16px; margin:0 0 7px; line-height:1.45; }
-  .card .summary{ font-size:14px; line-height:1.7; margin:0 0 10px; }
+  .card h4{ font-size:16.5px; margin:0 0 7px; line-height:1.45; }
+  .card .summary{ font-size:14.5px; line-height:1.75; margin:0 0 10px; }
   .qa{ background:#fff9f5; border-radius:12px; padding:9px 12px; margin-bottom:7px; }
   .qa .q{ font-size:11.5px; font-weight:800; color:var(--pink); margin-bottom:3px; }
-  .qa .a{ font-size:13.5px; line-height:1.65; }
+  .qa .a{ font-size:14px; line-height:1.7; }
   .procon{ display:grid; gap:7px; margin-bottom:7px; }
   .procon .pc{ border-radius:12px; padding:9px 12px; font-size:13.5px; line-height:1.65; }
   .procon .pro{ background:#eefaf3; } .procon .con{ background:#fdf0f4; }
@@ -150,7 +150,7 @@
   <header class="topbar">
     <div class="row">
       <div>
-        <h1>🏛 政治ダッシュボード</h1>
+        <h1>🐈‍⬛ 政治ダッシュボード</h1>
         <div class="updated" id="updatedLabel">読み込み中…</div>
       </div>
       <button class="reload" id="reloadBtn" type="button">↻ 更新</button>
