@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-11-16T09:18:38+09:00",
-  "fetched_label": "11月16日 09:18 時点",
+  "fetched_at": "2026-11-17T06:26:29+09:00",
+  "fetched_label": "11月17日 06:26 時点",
   "digest": [
     {
-      "text": "12月から電気・ガス代の補助が再開され、負担が軽くなります。",
+      "text": "12月から来年2月まで電気・ガス料金への国の助けが再開され、普通の家庭で3か月合計7000円程度安くなる見込みです。",
       "source_url": "https://www.jiji.com/jc/article?k=2026102901064&g=pol"
     },
     {
-      "text": "住民税がかかり始める年収の目安が約119万円に上がります。",
+      "text": "住民税がかかり始める年収の目安が、約110万円から約119万円に上がります。",
       "source_url": "https://www.lettuceclub.net/news/article/1433136/"
     },
     {
-      "text": "来年4月から食料品を対象にした消費税減税が予定されています。",
+      "text": "来年4月から、食料品を買うときにかかる消費税を下げることが予定されています。",
       "source_url": "https://topics.smt.docomo.ne.jp/article/yomiuri/politics/20261029-567-GYT1T00374"
     }
   ],
@@ -477,114 +477,6 @@
       "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004446&Mode=0"
     },
     {
-      "topic": "diet",
-      "kind": "diet",
-      "title": "租税及び社会保険料による負担の軽減のための飲食料品に係る消費税率の臨時的な引下げ及び就業者負担軽減支援金の支給に関する法律案",
-      "date": null,
-      "summary": "食べ物にかかる消費税の税率を一時的に下げたり、お仕事をしている人へお金を配ったりして、税金や保険料の負担を軽くするため法律の案です。",
-      "why": "私たちが普段払っている税金や社会保険料の負担をどう減らすかに関わる大切な法律の案だからです。",
-      "changes": "まだ決まっていません。",
-      "glossary": [
-        [
-          "消費税",
-          "買い物やサービスを受けるときにかかる税金のことです。"
-        ],
-        [
-          "社会保険料",
-          "病気や老後などにそなえて、みんなでお金を出し合う仕組みのことです。"
-        ]
-      ],
-      "source_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222001.htm"
-    },
-    {
-      "topic": "diet",
-      "kind": "diet",
-      "title": "地方公務員災害補償法及び地方公務員等共済組合法の一部を改正する法律案",
-      "date": null,
-      "summary": "地方で働く公務員が、仕事中や通勤中にケガをしたときなどの補償や、共済の仕組みを直すための法律の案です。",
-      "why": "地方で働く公務員のみなさんの生活や安全に関わる大切なルールだからです。",
-      "changes": "まだ決まっていません。",
-      "glossary": [
-        [
-          "公務員",
-          "国や地域のためにお仕事をする人のことです。"
-        ],
-        [
-          "災害補償",
-          "仕事中の事故などでケガや病気をしたときに、お金などを助ける仕組みのことです。"
-        ]
-      ],
-      "source_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222005.htm"
-    },
-    {
-      "topic": "diet",
-      "kind": "diet",
-      "title": "地方公共団体の議会の議員及び長の選挙期日等の臨時特例に関する法律案",
-      "date": null,
-      "summary": "地方の議会の議員や首長を選ぶ選挙の日程などを、一時的な特例として決めるための法律の案です。",
-      "why": "地域のみなさんの代表を選ぶ選挙のスケジュールに関わるからです。",
-      "changes": "まだ決まっていません。",
-      "glossary": [
-        [
-          "地方公共団体",
-          "都道府県や市区町村といった、私たちが暮らす地域をまとめる役所のことです。"
-        ],
-        [
-          "長",
-          "都道府県知事や市区町村長などの、地域のリーダーのことです。"
-        ]
-      ],
-      "source_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222016.htm"
-    },
-    {
-      "topic": "diet",
-      "kind": "diet",
-      "title": "就業者の租税及び社会保険料による負担の軽減のために講ずべき措置に関する法律案",
-      "date": null,
-      "summary": "お仕事をしている人たちが払う税金や社会保険料の負担を軽くするために、どのような対策をするかを決める法律の案です。",
-      "why": "働く人たちの手元に残るお金や負担の大きさに直結するからです。",
-      "changes": "まだ決まっていません。",
-      "glossary": [
-        [
-          "就業者",
-          "お仕事をしてお金を稼いでいる人のことです。"
-        ]
-      ],
-      "source_url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE36B6.htm"
-    },
-    {
-      "topic": "diet",
-      "kind": "diet",
-      "title": "国会議員の秘書の給与等に関する法律の一部を改正する法律案",
-      "date": null,
-      "summary": "国会議員をお手伝いする「秘書」というお仕事をしている人たちの給料などのルールを直すための法律の案です。",
-      "why": "国会議員を支える秘書のお給料や働き方に関わるルールだからです。",
-      "changes": "まだ決まっていません。",
-      "glossary": [
-        [
-          "秘書",
-          "議員のお仕事がスムーズに進むようにお手伝いをする人のことです。"
-        ]
-      ],
-      "source_url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE374A.htm"
-    },
-    {
-      "topic": "diet",
-      "kind": "diet",
-      "title": "消費税の税率を当分の間の措置として引き下げる等のために講ずべき措置に関する法律案",
-      "date": null,
-      "summary": "当分の間、消費税の税率を一時的に下げるために必要なことを行うための法律の案です。",
-      "why": "私たちが買い物をするときの消費税率が変わるかもしれない大切な話だからです。",
-      "changes": "まだ決まっていません。",
-      "glossary": [
-        [
-          "消費税率",
-          "買い物にかかる消費税の割合のことです。"
-        ]
-      ],
-      "source_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222100222002.htm"
-    },
-    {
       "topic": "election",
       "kind": "election",
       "title": "2027年統一地方選挙（道府県・政令指定都市の首長・議員選挙）",
@@ -655,6 +547,104 @@
         ]
       ],
       "source_url": "https://ja.wikipedia.org/wiki/第21回統一地方選挙"
+    },
+    {
+      "topic": "diet",
+      "kind": "diet",
+      "title": "租税及び社会保険料による負担の軽減のための飲食料品に係る消費税率の臨時的な引下げ及び就業者負担軽減支援金の支給に関する法律案",
+      "date": null,
+      "summary": "食べ物にかかる消費税の税率を一時的に下げたり、お仕事をしている人への支援金を配ったりするための法律案です。税金や社会保険の負担を軽くすることが目的です。",
+      "why": "私たちの生活の負担に関わる大切な法律だからです。",
+      "changes": "まだ決まっていません。",
+      "glossary": [
+        [
+          "消費税",
+          "お買い物や食事をしたときにかかる税金のことです。"
+        ],
+        [
+          "社会保険料",
+          "医療保険や年金などのために、みんなでお金を出し合う仕組みのことです。"
+        ]
+      ],
+      "source_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222001.htm"
+    },
+    {
+      "topic": "diet",
+      "kind": "diet",
+      "title": "地方公務員災害補償法及び地方公務員等共済組合法の一部を改正する法律案",
+      "date": null,
+      "summary": "地方で働く公務員の災害（お仕事中のケガなど）に対する補償や、共済のルールを一部変えるための法律案です。働く人たちの安心を支える内容となっています。",
+      "why": "地方で働く人たちの生活や安全を守るルールに関わるからです。",
+      "changes": "まだ決まっていません。",
+      "glossary": [
+        [
+          "地方公務員",
+          "都道府県や市区町村などの役所や施設で働く人のことです。"
+        ],
+        [
+          "共済組合",
+          "公務員などが加入する、健康保険や年金などのための組織のことです。"
+        ]
+      ],
+      "source_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222005.htm"
+    },
+    {
+      "topic": "diet",
+      "kind": "diet",
+      "title": "地方公共団体の議会の議員及び長の選挙期日等の臨時特例に関する法律案",
+      "date": null,
+      "summary": "地方自治体の議会の議員や首長を選ぶ選挙の日程などについて、臨時の特別なルールを決めるための法律案です。",
+      "why": "選挙のスケジュールに関わる大切なルールだからです。",
+      "changes": "まだ決まっていません。",
+      "glossary": [
+        [
+          "地方公共団体",
+          "都道府県や市区町村のことです。"
+        ],
+        [
+          "長",
+          "都道府県知事や市区町村長のことです。"
+        ]
+      ],
+      "source_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222016.htm"
+    },
+    {
+      "topic": "diet",
+      "kind": "diet",
+      "title": "就業者の租税及び社会保険料による負担の軽減のために講ずべき措置に関する法律案",
+      "date": null,
+      "summary": "お仕事をしている人が払う税金や社会保険料の負担を軽くするために、どのような対策をとるべきかを決めるための法律案です。",
+      "why": "働く人たちの手元に残るお金や負担に関わるからです。",
+      "changes": "まだ決まっていません。",
+      "glossary": [
+        [
+          "就業者",
+          "お仕事をして収入を得ている人のことです。"
+        ]
+      ],
+      "source_url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE36B6.htm"
+    },
+    {
+      "topic": "diet",
+      "kind": "diet",
+      "title": "国会議員の秘書の給与等に関する法律の一部を改正する法律案",
+      "date": null,
+      "summary": "国会議員の秘書として働く人たちの給料などに関する法律を、一部書き換えるための法律案です。",
+      "why": "国会議員を支える秘書のお給料のルールを決めるからです。",
+      "changes": "まだ決まっていません。",
+      "glossary": [],
+      "source_url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE374A.htm"
+    },
+    {
+      "topic": "diet",
+      "kind": "diet",
+      "title": "消費税の税率を当分の間の措置として引き下げる等のために講ずべき措置に関する法律案",
+      "date": null,
+      "summary": "一定の期間、消費税の税率を下げるなどの対策を行うために、どういった事を実施するかを決める法律案です。",
+      "why": "お買い物のときの消費税率に関わるため、私たちの生活に直接影響するからです。",
+      "changes": "まだ決まっていません。",
+      "glossary": [],
+      "source_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222100222002.htm"
     }
   ]
 }
