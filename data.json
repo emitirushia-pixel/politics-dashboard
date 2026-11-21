@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-11-21T06:25:33+09:00",
-  "fetched_label": "11月21日 06:25 時点",
+  "fetched_at": "2026-11-21T09:21:13+09:00",
+  "fetched_label": "11月21日 09:21 時点",
   "digest": [
     {
-      "text": "12月から来年2月まで電気・ガス料金への国の助けが再開されます。",
+      "text": "12月から来年2月まで電気・ガス料金への国の助けが再開され、普通の家庭で3か月合計7000円程度安くなる見込みです。",
+      "source_url": "https://www.jiji.com/jc/article?k=2026102901064&g=pol"
+    },
+    {
+      "text": "ガソリン価格を1リットルあたり170円程度に抑える国の助けが12月から少しずつ減り、価格の目安が毎月5円ずつ上がります。",
       "source_url": "https://www.jiji.com/jc/article?k=2026102901064&g=pol"
     },
     {
       "text": "住民税がかかり始める年収の目安が、約110万円から約119万円に上がります。",
       "source_url": "https://www.lettuceclub.net/news/article/1433136/"
-    },
-    {
-      "text": "来年4月から、食料品を買うときにかかる消費税を下げることが予定されています。",
-      "source_url": "https://topics.smt.docomo.ne.jp/article/yomiuri/politics/20261029-567-GYT1T00374"
     }
   ],
   "topics": [
@@ -237,173 +237,6 @@
       }
     },
     {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "バーティポート整備指針などの一部改正案の意見募集",
-      "date": "2026-12-18",
-      "summary": "空飛ぶクルマなどが使う「バーティポート」の整備指針などのルールを変える案について、みんなの意見を募集しています。締切は2026年12月18日の17時までです。",
-      "why": "これからの新しい空の移動に関するルールが決まるため。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "バーティポート",
-          "空飛ぶクルマなどが離れ着きするための港のような場所"
-        ]
-      ],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155261241&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "船舶安全法施行規則の一部を改正する省令案の意見募集",
-      "date": "2026-12-17",
-      "summary": "船の安全に関するルールを変える案について、みんなの意見を募集しています。受付の締切は2026年12月17日の23時59分までです。",
-      "why": "船の安全に関わる大切なルールが変わるため。",
-      "changes": "まだ決まっていません",
-      "glossary": [],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155261036&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "銀行法のルールや自己資本比率に関する一部改正案の意見公表",
-      "date": "2026-12-18",
-      "summary": "銀行のルールやお金の体力をはかる基準などを変える案について、意見を募集しています。締切は2026年12月18日の15時までです。",
-      "why": "銀行の仕組みやお金のルールに大きく関わるため。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "自己資本比率規制",
-          "銀行が安全に経営を続けるためにもっているべき自己資金の割合のルール"
-        ]
-      ],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=225026070&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "フルペンチオフェノックスの健康影響評価についての意見募集",
-      "date": "2026-12-17",
-      "summary": "フルペンチオフェノックスという農薬などが体に与える影響を調べた結果の案について、意見や情報を募集しています。締切は2026年12月17日の23時59分までです。",
-      "why": "私たちが食べるものなどの安全に関わるため。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "食品健康影響評価",
-          "食べ物が人の健康にどんな影響をあたえるかをあらかじめ調べること"
-        ]
-      ],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=095260950&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "非常勤消防団員等の損害補償基準の改正案に対する意見募集",
-      "date": "2026-12-18",
-      "summary": "非常勤の消防団員などがケガをしたときなどの補償の基準を変える案について、意見を募集しています。締切は2026年12月18日の23時59分までです。",
-      "why": "地域を守る消防団員の補償に関わる大切なことだから。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "非常勤消防団員",
-          "ふだんは別の仕事をしながら、火事や災害のときに消火や救助をする地域の人たち"
-        ]
-      ],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=860202607&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "電気通信事業法施行規則などの一部改正に対する意見募集",
-      "date": "2026-12-18",
-      "summary": "スマホやインターネットなどの電気通信に関するルールを変える案について、意見を募集しています。締切は2026年12月18日の23時59分までです。",
-      "why": "私たちの身近な通信サービスの使い方やルールが変わるため。",
-      "changes": "まだ決まっていません",
-      "glossary": [],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210802&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "組換えDNA技術応用飼料の安全性確認申請に関する意見募集",
-      "date": "2026-12-18",
-      "summary": "遺伝子を組み換える技術を使った動物のエサの安全性について、確認の申請があった案件の意見を募集しています。締切は2026年12月18日の23時59分までです。",
-      "why": "家畜が食べるエサの安全性を確かめるため。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "組換えDNA技術",
-          "生物の遺伝子のデータを人工的に変えて、新しい性質をもたせる技術"
-        ]
-      ],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004447&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "米穀の出荷販売事業者の遵守事項を定める省令の改正案の意見募集",
-      "date": "2026-12-18",
-      "summary": "お米を売ったり出荷したりする人が守らなければいけないルールを変える案について、意見を募集しています。締切は2026年12月18日の23時59分までです。",
-      "why": "お米の流通や販売のルールに関わるため。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "米穀",
-          "お米のこと"
-        ]
-      ],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004448&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "道路運送車両の保安基準などの一部を改正する案についての意見募集",
-      "date": "2026-12-19",
-      "summary": "車などの安全基準やルールを変える案について、みんなの意見を募集しています。受付の締切は2026年12月19日の10時00分までです。",
-      "why": "車や自動運転の安全に関わるルールが決まるため。",
-      "changes": "まだ決まっていません",
-      "glossary": [
-        [
-          "保安基準",
-          "車が安全に走るために守らなければならない決まり"
-        ]
-      ],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260936&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "母子保健法施行規則の一部を改正する内閣府令案の意見募集",
-      "date": "2026-12-18",
-      "summary": "お母さんと子供の健康を守るためのルールを変える案について、意見を募集しています。締切は2026年12月18日の17時00分までです。",
-      "why": "子育てや母子保健の制度に関わるため。",
-      "changes": "まだ決まっていません",
-      "glossary": [],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=141000248&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "厚生労働大臣が基準を定めて指定する医療機器の一部を改正する件の意見募集",
-      "date": "2026-12-19",
-      "summary": "医療機器の安全や品質に関する基準の一部を変える案について、意見を募集しています。締切は2026年12月19日の23時59分までです。",
-      "why": "病院などで使われる医療機器のルールが変わるため。",
-      "changes": "まだ決まっていません",
-      "glossary": [],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260270&Mode=0"
-    },
-    {
-      "topic": "deadline",
-      "kind": "deadline",
-      "title": "地域医療介護総合確保推進法施行規則の改正案に関する意見募集",
-      "date": "2026-12-18",
-      "summary": "地域での医療や介護の体制をしっかり整えるためのルールを変える案について、意見を募集しています。締切は2026年12月18日の23時59分までです。",
-      "why": "地域のみんなが受ける医療や介護のサービスに関わるため。",
-      "changes": "まだ決まっていません",
-      "glossary": [],
-      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260269&Mode=0"
-    },
-    {
       "topic": "diet",
       "kind": "diet",
       "title": "租税及び社会保険料による負担の軽減のための飲食料品に係る消費税率の臨時的な引下げ及び就業者負担軽減支援金の支給に関する法律案",
@@ -511,21 +344,221 @@
       "source_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222100222002.htm"
     },
     {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "非常勤消防団員等に係る損害補償の基準を定める政令の一部を改正する政令案に対する意見募集",
+      "date": "2026-12-18",
+      "summary": "非常勤の消防団員などの損害補償の基準を変える案について、みんなの意見を募集しています。意見の受付は2026年12月28日の23時59分までです。",
+      "why": "消防団員の補償に関わる大切なルールが変わるかもしれないからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "非常勤消防団員",
+          "ふだんは別の仕事をしながら、火事や災害のときに手伝う消防団の人たちのことです。"
+        ]
+      ],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=860202607&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "電気通信事業法施行規則等の一部改正に対する意見募集",
+      "date": "2026-12-18",
+      "summary": "電気通信のルールを変える案について、意見を募集しています。受付の締め切りは2026年12月18日の23時59分です。",
+      "why": "スマホやインターネットなどの通信サービスに関わるルールが変わるからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "電気通信",
+          "電話やインターネットなどの通信のことです。"
+        ]
+      ],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210802&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "組換えDNA技術応用飼料の安全性確認申請案件についての意見・情報の募集について",
+      "date": "2026-12-18",
+      "summary": "遺伝子を組み換える技術を使った動物の食べもの（飼料）の安全性を確認する申請について、意見や情報を募集しています。締め切りは2026年12月18日の23時59分です。",
+      "why": "動物が食べるエサの安全性を確かめるためです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "組換えDNA技術",
+          "生物の遺伝子の情報を新しくつなぎ合わせる技術のことです。"
+        ],
+        [
+          "飼料",
+          "牛や豚、鶏などの動物が食べるエサのことです。"
+        ]
+      ],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004447&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "米穀の出荷販売事業者が遵守すべき事項を定める省令の一部を改正する省令案についての意見・情報の募集について",
+      "date": "2026-12-18",
+      "summary": "お米を売ったり出荷したりする人が守るべきルールを変える案について、意見や情報を募集しています。締め切りは2026年12月18日の23時59分です。",
+      "why": "私たちが食べるお米の流通に関わるルールが変わるからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "米穀",
+          "お米のことです。"
+        ],
+        [
+          "遵守",
+          "ルールや法律をしっかり守ることです。"
+        ]
+      ],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004448&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "道路運送車両の保安基準等の一部を改正する省令案などに関する意見募集",
+      "date": "2026-12-19",
+      "summary": "車の安全性などの基準を変える案について、意見を募集しています。受付の締め切りは2026年12月19日の10時00分です。",
+      "why": "私たちが乗る車や走る道路の安全ルールに関わるからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "保安基準",
+          "車が安全に走るために、必ず満たさなければならないきまりのことです。"
+        ]
+      ],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260936&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "母子保健法施行規則の一部を改正する内閣府令（案）に関する御意見の募集について",
+      "date": "2026-12-18",
+      "summary": "お母さんと子どもの健康を守るためのルールを変える案について、意見を募集しています。締め切りは2026年12月18日の17時00分です。",
+      "why": "母子保健の仕組みや手続きが変わる可能性があるからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "母子保健",
+          "お母さんと子どもの健康を守り、育てやすくするための取り組みのことです。"
+        ]
+      ],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=141000248&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "医療機器の基準を定める件の一部を改正する件（案）に係る御意見の募集について",
+      "date": "2026-12-19",
+      "summary": "医療機器のルールや基準を変える案について、意見を募集しています。締め切りは2026年12月19日の23時59分です。",
+      "why": "病院などで使われる医療機器の品質や安全性の基準に関わるからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "医療機器",
+          "病気の治療や検査に使われる機械や器具のことです。"
+        ]
+      ],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260270&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "地域における医療及び介護の総合的な確保の促進に関する法律施行規則の一部を改正する省令案について",
+      "date": "2026-12-18",
+      "summary": "地域での医療や介護の体制を整えるためのルールを変える案について、意見を募集しています。締め切りは2026年12月18日の23時59分です。",
+      "why": "地域のみんなが受ける医療や介護のサービスに関わるからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "介護",
+          "お年寄りや体の不自由な人の手助けや世話をすることです。"
+        ]
+      ],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260269&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "特定放射性廃棄物の最終処分に関する法律に基づく金額を定める省令の一部を改正する省令（案）に対する意見募集",
+      "date": "2026-12-21",
+      "summary": "放射性廃棄物の処分に必要な費用に関するルールを変える案について、意見を募集しています。締め切りは2026年12月21日の00時00分です。",
+      "why": "原子力のゴミの処理にかかるお金の仕組みに関わるからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "放射性廃棄物",
+          "原子力発電などで出る、放射線を出すゴミのことです。"
+        ]
+      ],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=620340104&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "携帯音声通信事業者による契約者等の本人確認等に関する法律の一部を改正する法律の施行に伴う関係政令の整備に関する政令案に対する意見募集",
+      "date": "2026-12-21",
+      "summary": "携帯電話を契約するときの本人確認などのルールを整備する案について、意見を募集しています。締め切りは2026年12月21日の23時59分です。",
+      "why": "携帯電話の不正利用を防ぐための大切なルールが変わるからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "本人確認",
+          "サービスを使う人が本当にその人本人であるかを確かめることです。"
+        ]
+      ],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210797&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "水質汚濁防止法施行規則等の一部を改正する省令の一部を改正する省令案に関する意見募集",
+      "date": "2026-12-20",
+      "summary": "水の汚れを防ぐためのルールを変える案について、意見を募集しています。締め切りは2026年12月20日の00時00分です。",
+      "why": "川や海などのきれいな水を守るためのルールに関わるからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "水質汚濁",
+          "川や海などの水が汚れてしまうことです。"
+        ]
+      ],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260084&Mode=0"
+    },
+    {
+      "topic": "deadline",
+      "kind": "deadline",
+      "title": "特定デジタルプラットフォームの透明性及び公正性の向上に関する法律に基づく特定デジタルプラットフォームに対する経済産業大臣による評価（案）に対する意見公募",
+      "date": "2026-12-20",
+      "summary": "大きなネット企業に対する国の評価の案について、意見を募集しています。締め切りは2026年12月20日の13時00分です。",
+      "why": "私たちがよく使うネットサービスやアプリの公正な取引に関わるからです。",
+      "changes": "まだ決まっていません",
+      "glossary": [
+        [
+          "デジタルプラットフォーム",
+          "たくさんの人が集まって買い物や情報交換をするインターネット上の場所（大きなネットサービスなど）のことです。"
+        ]
+      ],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320123&Mode=0"
+    },
+    {
       "topic": "election",
       "kind": "election",
       "title": "2027年統一地方選挙（道府県・政令指定都市の首長・議員選挙）",
       "date": "2027-04-11",
-      "summary": "全国の知事や県議会議員、大きな市の市長や議員などをまとめて選ぶ選挙の、前半戦の日程です。2027年4月11日に行われます。",
-      "why": "自分の住む地域の大切なリーダーや議員を決めるためです。",
+      "summary": "全国の知事や県議会議員などを決めるための選挙の前半戦だよ。2027年4月11日に行われるよ。",
+      "why": "自分たちの地域をまとめてくれるリーダーや代表を選ぶためだよ。",
       "changes": "まだ決まっていません",
       "glossary": [
         [
           "首長",
-          "知事や市長など、地域をまとめるリーダーのことです。"
+          "リーダーのこと"
         ],
         [
           "政令指定都市",
-          "国から大きな権限を与えられた、人口が多い大きな市の呼び名です。"
+          "大きな市のこと"
         ]
       ],
       "source_url": "https://ja.wikipedia.org/wiki/第21回統一地方選挙"
@@ -535,13 +568,13 @@
       "kind": "election",
       "title": "石川県議会議員選挙",
       "date": "2027-04-11",
-      "summary": "石川県をよくするための代表である「県議会議員」を選ぶ選挙です。2027年4月11日の前半戦の日程で行われます。",
-      "why": "石川県の方針やお金の使い方などを決める大切な代表を選ぶためです。",
+      "summary": "石川県の代表を選ぶ県議会議員選挙だよ。2027年4月11日の前半戦の日程で行われるよ。",
+      "why": "石川県の大切なことを話し合う代表を決めるためだよ。",
       "changes": "まだ決まっていません",
       "glossary": [
         [
           "県議会議員",
-          "県の方針や法律などを話し合って決める代表のことです。"
+          "県の代表として話し合う人たちのこと"
         ]
       ],
       "source_url": "https://ja.wikipedia.org/wiki/第21回統一地方選挙"
@@ -551,13 +584,13 @@
       "kind": "election",
       "title": "2027年統一地方選挙（政令市以外の市・特別区・町村の首長・議員選挙）",
       "date": "2027-04-25",
-      "summary": "全国の小さな市や町、村などのリーダーや議員を選ぶ選挙の、後半戦の日程です。2027年4月25日に行われます。",
-      "why": "身近な地域のリーダーや議員をみんなの投票で決めるためです。",
+      "summary": "全国の市や町などのリーダーや議員を決める選挙の後半戦だよ。2027年4月25日に行われるよ。",
+      "why": "身近な地域のくらしに関わるリーダーを選ぶためだよ。",
       "changes": "まだ決まっていません",
       "glossary": [
         [
           "特別区",
-          "東京にある特別な区のことです。"
+          "東京にある特別な区のこと"
         ]
       ],
       "source_url": "https://ja.wikipedia.org/wiki/第21回統一地方選挙"
@@ -567,8 +600,8 @@
       "kind": "election",
       "title": "石川県内の市長選挙・町長選挙・市議会議員選挙など",
       "date": "2027-04-25",
-      "summary": "石川県の中にある市や町などで、リーダーや議員を選ぶ選挙です。2027年4月25日の後半戦の日程で行われます。",
-      "why": "自分たちの暮らす身近な地域のくらしをよくする代表を選ぶためです。",
+      "summary": "石川県の中の市や町でも、後半戦の日程で選挙が行われるよ。2027年4月25日に行われるよ。",
+      "why": "それぞれの市や町をどうするか決める人を選ぶためだよ。",
       "changes": "まだ決まっていません",
       "glossary": [],
       "source_url": "https://ja.wikipedia.org/wiki/第21回統一地方選挙"
